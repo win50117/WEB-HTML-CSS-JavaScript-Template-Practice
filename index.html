@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="all">
+      <h1 id="title">農村地方美食小吃特色料理</h1>
+      <div id="local">
+        <select id="selectcity" onchange="CityOnChange()">
+          <option value="" style="display: none">請選擇行政區域...</option>
+        </select>
+        <select id="selecttown" onchange="TownOnChange()">
+          <option value="" style="display: none">請選擇鄉鎮...</option>
+        </select>
+      </div>
+      <div class="div-table" id="imagetable"></div>
+    </div>
+
+    <script src="localfood.js"></script>
+  </body>
+</html>
