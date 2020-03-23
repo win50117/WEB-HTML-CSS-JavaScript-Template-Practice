@@ -3477,6 +3477,12 @@ var FoodData = [
     }
 ];
 
+
+// var xhr = new XMLHttpRequest();
+// xhr.open("get", "https://data.coa.gov.tw/Service/OpenData/ODwsv/ODwsvTravelFood.aspx", true);
+// xhr.send(null);
+// console.log(xhr.responseText);
+
 var total = FoodData.length;//總JSON資料長度
 var imageTableStr = "";//innerHTML用的字串
 var el = document.getElementById("imagetable");//取得imagetable元素
